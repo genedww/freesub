@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  server: 104.24.31.89
-  port: 443
+- name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  server: 128.241.25.11
+  port: 30021
   udp: true
   type: vless
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  uuid: 72fbb611-628d-4afa-8198-bda3e38021f9
   tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /@Marisa_kristi
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
