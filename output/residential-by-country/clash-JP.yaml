@@ -5,17 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 103.115.18.54
+  server: 64.176.60.226
   port: 443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /episode/files?ed=2560
+    path: /
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
