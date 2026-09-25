@@ -8,17 +8,13 @@ proxies:
   server: 104.17.147.22
   port: 443
   udp: true
-  type: vless
-  uuid: d9224de0-fcff-4534-bfcb-1d7bdb1453e8
-  tls: true
-  servername: blacknet0.blacknet89.workers.dev
+  type: trojan
+  password: f88f080e9b4f66c6
+  sni: Open-39.avL-a47261.worKErS.Dev
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiaEZzc0lFSmlmbHdNUWYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-    headers:
-      Host: blacknet0.blacknet89.workers.dev
+    path: /tr/RIe4tZSAV4RjTfHKZ24cX27AmBg0?ed=2560
 proxy-groups:
 - name: PROXIES
   type: select

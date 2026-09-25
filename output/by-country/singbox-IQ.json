@@ -4,15 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇮🇶 IQ 01 - xiaohe",
       "server": "104.17.147.22",
       "server_port": 443,
-      "uuid": "d9224de0-fcff-4534-bfcb-1d7bdb1453e8",
+      "password": "f88f080e9b4f66c6",
       "tls": {
         "enabled": true,
-        "server_name": "blacknet0.blacknet89.workers.dev",
+        "server_name": "Open-39.avL-a47261.worKErS.Dev",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiaEZzc0lFSmlmbHdNUWYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+        "path": "/tr/RIe4tZSAV4RjTfHKZ24cX27AmBg0?ed=2560",
         "headers": {
-          "Host": "blacknet0.blacknet89.workers.dev"
+          "Host": "open-39.avl-a47261.workers.dev"
         }
       }
     },
