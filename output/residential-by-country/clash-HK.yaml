@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
-  server: 92e6c9f0-tmm5c0-twjnjx-1q9g2.hk3.hyhuawei.com
+  server: ab6440be-tmm5c0-truoje-1uni.hk3.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
-  sni: 92e6c9f0-tmm5c0-twjnjx-1q9g2.hk3.hyhuawei.com
+  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+  sni: ab6440be-tmm5c0-truoje-1uni.hk3.hyhuawei.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
-  server: 38861941-tmm5c0-tvb36r-1qwom.nw4.hyhuawei.com
+  server: 4e3ff39f-tmm5c0-tr9h64-1f1f1.nw4.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-  sni: 38861941-tmm5c0-tvb36r-1qwom.nw4.hyhuawei.com
+  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  sni: 4e3ff39f-tmm5c0-tr9h64-1f1f1.nw4.hyhuawei.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
